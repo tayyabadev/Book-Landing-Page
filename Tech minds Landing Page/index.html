@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book Landing Page</title>
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="assets/script.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="header_title"><span>Matt Ridley</span><i class="fa fa-lg fa-paper-plane plane-ico"></i></h2>
+        <nav id="header_navigation" class="header_navigation">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Books</a>
+            <a href="#">Blog</a>
+            <a href="#">Contact</a>
+        </nav>
+        <i onclick="toggleMenu('block')" class="fa fa-bars menu-ico" aria-hidden="true"></i>
+        <i onclick="toggleMenu('none')" id="close-ico" class="fa fa-times-circle close-ico" aria-hidden="true"></i>
+    </header>
+    <div class="wrapper">
+        <aside>
+            <div class="book">
+                <div class="book_circle">
+                    <img src="./assets/images/book.png" alt="book" />
+                </div>
+            </div>
+        </aside>
+        <main>
+            <h1>Innovation happens when people are free to think, speculate and experiment</h1>
+            <p>Ridley's new book, How Innovation Works, chronicles the history of innovation and argues that we need to change the way we think about innovation, to see it as an incremental, bottom-up, fortuitous process that happens to society as a direct result of the human habit of exchange.</p>
+            <div class="buttons">
+                <button class="button_buy-now">BUY NOW</button>
+                <button class="button_read-more">Read more</button>
+            </div>
+        </main>
+    </div>
+</body>
+
+</html>
